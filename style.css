@@ -149,3 +149,108 @@ h1, h2 {
         height: 150px;
     }
 }
+/* Numbered Courses List */
+.courses-list {
+    list-style-type: decimal;
+    padding-left: 30px;
+    margin: 15px 0;
+}
+
+.courses-list li {
+    padding: 10px 0;
+    font-size: 16px;
+    color: #333;
+    border-bottom: 1px solid #eee;
+}
+
+.courses-list li:hover {
+    color: #667eea;
+    transform: translateX(5px);
+    transition: all 0.3s ease;
+}
+
+.courses-list {
+    list-style-type: decimal;
+    padding-left: 30px;
+}
+
+.courses-list li {
+    background: linear-gradient(135deg, #e8f4f8, #d1e8f0);
+    color: #006D77;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border-radius: 12px;
+    border-left: 5px solid #40E0D0;
+    font-weight: 500;
+    font-size: 16px;
+    width: 60%;  
+}     
+
+.courses-list li:hover {
+    background: linear-gradient(135deg, #40E0D0, #006D77);
+    color: white;
+    transform: translateX(10px);
+    box-shadow: 0 5px 15px rgba(0,109,119,0.3);
+}
+
+/* Style the numbers */
+.courses-list li::marker {
+    color: #40E0D0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.course {
+    background: linear-gradient(135deg, #e8f4f8, #d1e8f0);
+    color: #006D77;
+    padding: 12px;
+    border-radius: 10px;
+    border-left: 4px solid #40E0D0;
+    transition: all 0.3s ease;
+}
+
+.course:hover {
+    background: linear-gradient(135deg, #40E0D0, #006D77);
+    color: white;
+    transform: translateY(-3px);
+}
+/* Red Text for University Name */
+.red-university-text {
+    color: #ff0000;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.red-university-text {
+    color: #ff0000;
+    font-size: 24px;  /* Made BIGGER (was 22px) */
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.uni-logo-small {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.uni-logo-small img {
+    width: 120px;  /* Logo size */
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #40E0D0;
+    padding: 5px;
+    background: white;
+}
+
+.red-university-text {
+    color: #ff0000;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
